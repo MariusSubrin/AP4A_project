@@ -18,9 +18,4 @@ int main() {
     simulation(); //lance simulation dans Scheduler
 
     return 0;
-
-    //------------------------- Compte-rendu idées
-
-    //Choix intentionnel de ne pas donner toutes les autorisations aux admins, pourrait se modifier très rapidement dans le fichier autorisation.csv
-    //On pourrait ajouter le jour dans le log.csv, suffit de ne pas effacer à chaque redémarrage, et d'incrémenter une date à se moment avant de l'insérer au début de chaque ligne par exemple.
 }
